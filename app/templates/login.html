@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Log in</title>
+</head>
+<body>
+	<h1>You have to log in </h1>
+	<br>
+	<p>So what did that code do?
+
+First we imported the Flask class. An instance of this class will be our WSGI application.
+
+Next we create an instance of this class. <br> The first argument is the name of the application’s module or package. If you are using a single module (as in this example), you should use __name__ because depending on if it’s started as application or imported as module the name will be different ('__main__' versus the actual import name). <br> This is needed so that Flask knows where to look for templates, static files, and so on. For more information have a look at the Flask documentation. <br>
+
+We then use the route() decorator to tell Flask what URL should trigger our function.
+
+The function is given a name which is also used to generate URLs for that particular function, and returns the message we want to display in the user’s browser.
+
+Just save it as hello.py or something similar. Make sure to not call your application flask.py because this would conflict with Flask itself.</p>
+</body>
+</html>
