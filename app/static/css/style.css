@@ -1,4 +1,11 @@
 #basement {
 	text-align: center;
-	background: blue;
+	background: red;
+}
+
+h2 {
+	border: 2px solid;
+	color: black;
+	text-align: center;
+	padding: 10px;
 }

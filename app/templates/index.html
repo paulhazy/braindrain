@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>BrainDrain</title>
-	<link rel="stylesheet" type="text/css" href="..\\static\\css\\style.css" />
-	<h2> Welcome to BrainDrain project </h2>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'css/style.css' ) }}" />
+	<h2> Welcome to BrainDrain platform </h2>
 <!--	<script type="text/javascript">
 		function hello() {
 			document.querySelector('h3').innerHTML = 'goodbye'
@@ -15,7 +15,7 @@
 <body>
 <div id="main-panel">
 	<ul>
-		<li><a href="">Linux/Bash</li>
+		<li><a href="">Linux/Bash</a></li>
 		<li><a href="">Networking</a></li>
 		<li><a href="">Security</a></li>
 		<li><a href="">Web</a></li>
